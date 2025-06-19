@@ -1,0 +1,17 @@
+
+{
+  "projects": {
+    "default": "osf-fh-screening"
+  },
+  "targets": {
+    "osf-fh-screening": {
+      "hosting": {
+        "test": [
+          "test-fh-screening"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
