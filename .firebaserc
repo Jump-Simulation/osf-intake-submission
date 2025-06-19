@@ -1,13 +1,12 @@
-
 {
   "projects": {
-    "default": "osf-fh-screening"
+    "default": "osf-innovation-intake"
   },
   "targets": {
-    "osf-fh-screening": {
+    "osf-innovation-intake": {
       "hosting": {
         "test": [
-          "test-fh-screening"
+          "osf-innovation-intake"
         ]
       }
     }

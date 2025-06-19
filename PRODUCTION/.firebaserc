@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "osf-fh-screening"
+    "default": "osf-innovation-intake"
   },
   "targets": {
-    "osf-fh-screening": {
+    "osf-innovation-intake": {
       "hosting": {
-        "production": [
-          "osf-fh-screening"
+        "test": [
+          "osf-innovation-intake"
         ]
       }
     }
@@ -14,5 +14,3 @@
   "etags": {},
   "dataconnectEmulatorConfig": {}
 }
-
-

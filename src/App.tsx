@@ -1,5 +1,5 @@
-var projectName: string = "OSF-FH";
-var BuildVersion: string = `1.18`;
+var projectName: string = "OSF-Intake-Submission";
+var BuildVersion: string = `0.01`;
 var debugMode = false;
 
 import { ReactElement, createContext, useContext, useEffect, useMemo, useState } from 'react'
@@ -9,11 +9,6 @@ import "bootstrap/dist/css/bootstrap.css"
 import "./CSS/Page_Main_Styles.css"
 import "./CSS/Page_Component_Styles/Bottom-Shadow.css"
 
-import { Button, Col, Container, Row } from 'react-bootstrap'
-
-import { initializeApp } from "firebase/app";
-
-import { getFirestore } from "@firebase/firestore";
 import {
   FieldValue,
   collection, doc, getDoc, increment, setDoc, updateDoc, serverTimestamp
